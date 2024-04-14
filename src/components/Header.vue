@@ -13,7 +13,7 @@
         </div>
         <div relative float-right top-0 right-15px p-2 hover="color-green" cursor-pointer transition-all-200
         font-size-25px>
-            <div i-carbon-sun v-if="isDark" title="Toggle Dark" @click="() => toggleDark()" />
+            <div i-carbon-sun v-if="!isDark" title="Toggle Dark" @click="() => toggleDark()" />
             <div i-carbon-moon v-else title="Toggle Light" @click="() => toggleDark()"/>
         </div>
     </header>
