@@ -28,4 +28,4 @@ Patches are not included in this repository.
 
 # License / 开源许可
 
-Copyright (c) 2024-PRESENT Vincent-the-gamer
+[MIT License | Copyright (c) 2024-PRESENT Vincent-the-gamer](./LICENSE)
