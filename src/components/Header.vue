@@ -1,5 +1,5 @@
 <template>
-    <header fixed top-0 left-0 w-full h-3rem bg-rgba-255-255-255-0.9 dark:bg-rgba-0-0-0-0.7>
+    <header fixed top-0 left-0 w-full h-3rem bg-rgba-255-255-255-0.9 dark:bg-rgba-0-0-0-0.7 z-2>
         <div relative float-left top-5px left-10px>
             <img src="../assets/murasame.png" h-40px />
         </div>
