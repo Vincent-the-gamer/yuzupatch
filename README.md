@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=".github/logo.png"/>
+    <img src=".github/murasame.png" style="height: 90px;"/>
 </p>
 
 <h1 align="center">
@@ -8,11 +8,24 @@
 
 <p align="center">
     <b>
-        <i>Patch collection of Yuzusoft Games</i>
+        <i>柚子社游戏补丁集合. </i>
     </b>
 </p>
 
+<p align="center">
+    <b>
+        <i>Patch collection of Yuzusoft Games. </i>
+    </b>
+</p>
 
-# License
+# Notice / 注意
+该仓库中不包含任何补丁。
+
+Patches are not included in this repository.
+
+# 访问 / Visit
+[https://yuzupatch.vince-g.xyz](https://yuzupatch.vince-g.xyz)
+
+# License / 开源许可
 
 Copyright (c) 2024-PRESENT Vincent-the-gamer
