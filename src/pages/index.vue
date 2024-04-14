@@ -3,7 +3,7 @@
     imgLink: string,
     title: string,
     steamBaiduLink: string,
-    steam123Link: string
+    steamGoogleDriveLink: string
   }
 
   const games = reactive<Card[]>([
@@ -11,7 +11,7 @@
       imgLink: "/covers/senren-banka.jpg",
       title: "千恋 * 万花",
       steamBaiduLink: "https://pan.baidu.com/s/1EfCHvIaSMVPO_xTNX2ieHw?pwd=4yjn",
-      steam123Link: ""
+      steamGoogleDriveLink: "https://drive.google.com/file/d/1G4v7G0sgQ9Pz3aJsDqZVQ9cuJBSYokOE/view?usp=drive_link"
     }
   ])
 
@@ -33,7 +33,7 @@
       
       <div flex="~ row justify-center items-center">
         <button btn m-inline-5px @click="() => linkHref(game.steamBaiduLink)">百度网盘下载</button>
-        <button btn m-inline-5px @click="() => linkHref(game.steam123Link)">123网盘下载</button>
+        <button btn m-inline-5px @click="() => linkHref(game.steamGoogleDriveLink)">Google Drive下载</button>
       </div>
     </div>
   </div>
