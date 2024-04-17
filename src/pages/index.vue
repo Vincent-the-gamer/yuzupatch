@@ -11,13 +11,13 @@
       imgLink: "/covers/senren-banka.jpg",
       title: "千恋 * 万花",
       steamBaiduLink: "https://pan.baidu.com/s/1EfCHvIaSMVPO_xTNX2ieHw?pwd=4yjn",
-      steamGoogleDriveLink: "https://drive.google.com/file/d/1G4v7G0sgQ9Pz3aJsDqZVQ9cuJBSYokOE/view?usp=drive_link"
+      steamGoogleDriveLink: "https://drive.google.com/file/d/1G4v7G0sgQ9Pz3aJsDqZVQ9cuJBSYokOE/view?usp=sharing"
     },
     {
       imgLink: "/covers/sabbat-of-the-witch.jpg",
       title: "魔女的夜宴",
       steamBaiduLink: "https://pan.baidu.com/s/1xY6jBe7gGImDeMLQYDy_Ow?pwd=0721",
-      steamGoogleDriveLink: "https://drive.google.com/file/d/1G4v7G0sgQ9Pz3aJsDqZVQ9cuJBSYokOE/view?usp=sharing"
+      steamGoogleDriveLink: "https://drive.google.com/file/d/1POL4DBXDJnUp3fcN-1QqmgR0j_tCxisT/view?usp=sharing"
     }
   ])
 
