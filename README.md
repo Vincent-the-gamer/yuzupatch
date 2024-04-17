@@ -23,7 +23,7 @@
 
 Patches are not included in this repository.
 
-# 访问 / Visit
+# Visit / 访问
 [https://yuzupatch.vince-g.xyz](https://yuzupatch.vince-g.xyz)
 
 # License / 开源许可
