@@ -18,6 +18,12 @@
       title: "魔女的夜宴",
       steamBaiduLink: "https://pan.baidu.com/s/1xY6jBe7gGImDeMLQYDy_Ow?pwd=0721",
       steamGoogleDriveLink: "https://drive.google.com/file/d/1POL4DBXDJnUp3fcN-1QqmgR0j_tCxisT/view?usp=sharing"
+    },
+    {
+      imgLink: "/covers/riddle-joker.png",
+      title: "Riddle Joker",
+      steamBaiduLink: "https://pan.baidu.com/s/1mtf06z2HZBJ9i4ALnLlpPA?pwd=0721",
+      steamGoogleDriveLink: "https://drive.google.com/file/d/1nyzYqC5aE9_C5cTGl_EYxgiEsHhlFHHR/view?usp=sharing"
     }
   ])
 
