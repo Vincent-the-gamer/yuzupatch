@@ -25,8 +25,8 @@ importers:
         specifier: ^20.14.2
         version: 20.17.1
       '@unocss/reset':
-        specifier: ^0.60.4
-        version: 0.60.4
+        specifier: ^0.63.6
+        version: 0.63.6
       '@vitejs/plugin-vue':
         specifier: ^5.0.5
         version: 5.1.4(vite@5.4.10(@types/node@20.17.1))(vue@3.5.12(typescript@5.4.5))
@@ -868,6 +868,9 @@ packages:
 
   '@unocss/reset@0.60.4':
     resolution: {integrity: sha512-MEngG4byIHnfb0osvxqU2gBdBkXPPE4z+G9HeEt3JUadWAp2gggm8ojC1/1PoJF5M31loxGEVVrB0FLSKACw3g==}
+
+  '@unocss/reset@0.63.6':
+    resolution: {integrity: sha512-gq73RSZj54MOloqrivkoMPXCqNG2WpIyBT1AYlF76uKxEEbUD41E8uBUhLSKs7gFgF01yQJLRaIuyN1yw09pbQ==}
 
   '@unocss/rule-utils@0.60.4':
     resolution: {integrity: sha512-7qUN33NM4T/IwWavm9VIOCZ2+4hLBc0YUGxcMNTDZSFQRQLkWe3N5dOlgwKXtMyMKatZfbIRUKVDUgvEefoCTA==}
@@ -2753,6 +2756,8 @@ snapshots:
       '@unocss/rule-utils': 0.60.4
 
   '@unocss/reset@0.60.4': {}
+
+  '@unocss/reset@0.63.6': {}
 
   '@unocss/rule-utils@0.60.4':
     dependencies:
