@@ -12,10 +12,10 @@ importers:
         specifier: ^10.10.0
         version: 10.11.1(vue@3.5.12(typescript@5.4.5))
       vue:
-        specifier: ^3.4.27
+        specifier: ^3.5.12
         version: 3.5.12(typescript@5.4.5)
       vue-router:
-        specifier: ^4.4.5
+        specifier: ^4.3.2
         version: 4.4.5(vue@3.5.12(typescript@5.4.5))
     devDependencies:
       '@iconify-json/carbon':
