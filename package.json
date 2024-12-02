@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.35",
-    "@types/node": "^22.10.0",
+    "@types/node": "^22.10.1",
     "@unocss/reset": "^0.63.6",
     "@vitejs/plugin-vue": "^5.2.1",
     "taze": "^0.18.0",
