@@ -17,7 +17,7 @@
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.7",
     "@types/node": "^22.13.4",
-    "@unocss/reset": "^0.63.6",
+    "@unocss/reset": "^65.5.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "taze": "^0.18.0",
     "typescript": "^5.7.3",
