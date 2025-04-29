@@ -4,16 +4,25 @@ const games = reactive<GameCard[]>([
     imgLink: "/covers/senren-banka.jpg",
     title: "千恋 * 万花",
     steamBaiduLink: "https://pan.baidu.com/s/1EfCHvIaSMVPO_xTNX2ieHw?pwd=4yjn",
+    baiduCode: "4yjn"
   },
   {
     imgLink: "/covers/sabbat-of-the-witch.jpg",
     title: "魔女的夜宴",
     steamBaiduLink: "https://pan.baidu.com/s/1xY6jBe7gGImDeMLQYDy_Ow?pwd=0721",
+    baiduCode: "0721"
   },
   {
     imgLink: "/covers/riddle-joker.png",
     title: "Riddle Joker",
     steamBaiduLink: "https://pan.baidu.com/s/1mtf06z2HZBJ9i4ALnLlpPA?pwd=0721",
+    baiduCode: "0721"
+  },
+  {
+    imgLink: "/covers/stella-cafe.png",
+    title: "星光咖啡馆与死神之蝶",
+    steamBaiduLink: "https://pan.baidu.com/s/1NvI8CnVGbz2dYuL1J5aoTA?pwd=0721",
+    baiduCode: "0721"
   }
 ])
 
@@ -34,7 +43,11 @@ function linkHref(url: string) {
       <p>Steam补丁：</p>
 
       <div flex="~ row justify-center items-center">
-        <button btn m-inline-5px v-if="game.steamBaiduLink" @click="() => linkHref(game.steamBaiduLink)">百度网盘下载</button>
+        <div>
+          <p>百度网盘提取码: {{ game.baiduCode }}</p>
+          <button btn m-inline-5px v-if="game.steamBaiduLink"
+            @click="() => linkHref(game.steamBaiduLink)">百度网盘下载</button>
+        </div>
         <button btn m-inline-5px v-if="game.steamGoogleDriveLink"
           @click="() => linkHref(game.steamGoogleDriveLink)">Google Drive下载</button>
       </div>

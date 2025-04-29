@@ -3,6 +3,7 @@ export interface PatchCard {
     title: string,
     steamBaiduLink?: string,
     steamGoogleDriveLink?: string
+    baiduCode?: string
 }
 
 export interface GameCard {
