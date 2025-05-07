@@ -11,4 +11,5 @@ export interface GameCard {
     title: string,
     baiduLink?: string,
     googleDriveLink?: string
+    baiduCode?: string
 }

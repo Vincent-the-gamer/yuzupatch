@@ -44,9 +44,8 @@ function linkHref(url: string) {
 
       <div flex="~ row justify-center items-center">
         <div>
-          <p>百度网盘提取码: {{ game.baiduCode }}</p>
           <button btn m-inline-5px v-if="game.steamBaiduLink"
-            @click="() => linkHref(game.steamBaiduLink)">百度网盘下载</button>
+            @click="() => linkHref(game.steamBaiduLink)">百度网盘下载(提取码: {{ game.baiduCode }})</button>
         </div>
         <button btn m-inline-5px v-if="game.steamGoogleDriveLink"
           @click="() => linkHref(game.steamGoogleDriveLink)">Google Drive下载</button>
